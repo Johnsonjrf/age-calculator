@@ -7,7 +7,8 @@ const yearError = document.getElementById("day-error").innerHTML
 
 // add eventlistener to detect when value is being entered
 monthValue.addEventListener("input", function () {
-    // check the validity of input
+
+        // check the validity of input
     if (monthValue.value < 1 || monthValue.value > 12 || monthValue.value.length > 2 ) {
         document.getElementById("month-error").textContent = "Enter a valid value"
     } else {

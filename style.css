@@ -81,6 +81,11 @@ input:focus{
     border: 1px solid rgb(210, 27, 185);
 }
 
+input::placeholder{
+    color: grey;
+    font-weight: bolder;
+}
+
 .hr{
     width: 90%;
 }
